@@ -12,8 +12,11 @@
 
     int main(int argc, char const *argv[])
     {
-        int n;
-        cin>>n;
+        for (int i = 0; i < 100; ++i)
+        {
+        	int k=i&(-1*i);
+        	cout<<k<<endl;
+        }
         
 		return 0;
     }

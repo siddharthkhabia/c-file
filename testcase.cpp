@@ -6,14 +6,13 @@
 #include <algorithm>
 #include <vector>
 #include <string>
-#define pi 3.14159265
     using namespace std;
-
+     
 
     int main(int argc, char const *argv[])
     {
-        int n;
-        cin>>n;
-        
+		int n=5;
+		cout<<n<<endl;        
+       
 		return 0;
     }
